@@ -1,0 +1,19 @@
+    /* * { */
+    /* box-sizing: border-box; */
+    /* margin: 0; */
+}
+
+body{
+    display: flex;
+    font-family: Helvetica;
+    min-height: 100vh;
+    
+    /* flex-direction: column; */
+}
+
+/* main {flex-grow: 1
+}
+
+header, footer { 
+    display: flex;
+} */
