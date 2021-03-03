@@ -5,12 +5,14 @@
 
 
 
-main {
+.main-card {
     flex-grow: 1;
+    
 }
 footer {
     display: flex;
     justify-content: center;
+    border-radius: 7px;
 }
 
 .outline {
@@ -25,8 +27,7 @@ footer {
 
 .card {
     display: flex;
-    width: 800px;
-    height: 200px;
+    
     margin:10px;
     border-radius: 7px;
     box-shadow:  3px 3px 7px 2px #808080;
