@@ -1,6 +1,7 @@
 # Rick and Morty Character Analysis
 
-A sinple wb app that dislays rick and Morty characters and allows you to compare stats.
+A sinple web app that dislays rick and Morty characters and allows you to compare stats.
+Imput Character Name eg. Beth Smith, Simple character stats are displayed on one of 3 cards
 
 ## ⚙️ Technologies Used
 - HTML5
