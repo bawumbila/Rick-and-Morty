@@ -4,6 +4,12 @@
     
 }
 
+.title {
+    padding: 10px;
+}
+.rickMortyPic {
+    padding-top: 10px;
+}
 
 .main-card {
     flex-grow: 1;
