@@ -15,6 +15,8 @@
     flex-grow: 1;
     
 }
+
+    
 .head {
     justify-content: space-around;
     border-radius: 7px;  
@@ -23,6 +25,7 @@
 
 .imageOne {
     display: flex;
+    
     justify-content: center;
     align-items: center;
     justify-content: space-around;  
@@ -61,6 +64,7 @@ button {
   display: inline-block;
   font-size: 16px; */
 }
+
 
 
 #imageOne, .stats {
@@ -104,7 +108,7 @@ img {
 
 header {
     font-family: "nosifer";
-    font-size: large;
+    font-size: 15px;
     padding: 10px 10px 10px 10px;
     display: flex;
     background-color: chartreuse;
@@ -125,3 +129,38 @@ body {
     flex-direction: column;
 }
 
+@media screen and (max-width: 500px) {
+    header {
+        font-size: 10px;
+    }
+     
+    .imageOne img{
+        display: block;
+        margin-right: 10px;
+    }
+
+    .imageTwo img{
+        display: block;
+        margin-right: 10px;
+    }
+
+    .imageThree img{
+        display: block;
+        margin-right: 10px;
+    }
+    .rickMortyPic img{
+        width: 100px;
+
+    }
+    }
+  
+    /* @media screen and (max-width: 300px) {
+        header {
+            font-size: 4px;
+        } */
+             
+        /* .imageOne img{
+            display: block;
+            margin-right: 10px; */
+        /* }
+        } */

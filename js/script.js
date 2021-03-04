@@ -1,9 +1,4 @@
-/*
-TODO: 
-1. Handle Case Sensitivity
-2. Handle Input Doesnt Exist
-3 Clear Button
-4. Realign Text
+
 
 
  /*----- constants -----*/
@@ -12,6 +7,12 @@ TODO:
  const $locationOne = $("#locationOne");
  const $originOne = $("#originOne");
  const $statusOne = $("#statusOne");
+
+
+
+ const $imageOneLink = $("#imageOneLink");
+ const $imageTwoLink = $("#imageTwoLink");
+ const $imageThreeLink = $("#imageThreeLink");
 
 
  const $imageOne = $("#imageOne");
@@ -50,6 +51,9 @@ let termThree;
 const $collection = $('#collection');
 /*----- event listeners -----*/
 $('form').on('submit', handleSubmit);
+$('#resetButton').on('click', clearContent)
+
+
 
 
 /*----- functions -----*/
@@ -59,38 +63,64 @@ function handleSubmit(evt) {
     console.log(termOne)
     if (termOne==null){
         termOne = $input.val();
-        populateData(termOne, $locationOne, $originOne, $statusOne, $imageOne, $characterOne)
+        populateData(termOne, $locationOne, $originOne, $statusOne, $imageOne, $characterOne, $imageOneLink)
         termTwo=null
     } else if (termTwo==null){
         termTwo = $input.val();
-        populateData(termTwo, $locationTwo, $originTwo, $statusTwo, $imageTwo, $characterTwo)
+        populateData(termTwo, $locationTwo, $originTwo, $statusTwo, $imageTwo, $characterTwo, $imageTwoLink)
         termThree=null
     } else if (termThree==null){
         termThree = $input.val();
-        populateData(termThree, $locationThree, $originThree, $statusThree, $imageThree, $characterThree)
+        populateData(termThree, $locationThree, $originThree, $statusThree, $imageThree, $characterThree, $imageThreeLink)
         termOne=null;
     }
+    $input.val("");
      
 }
 
-function populateData(term, loc, origin, status, img, character) {
+function populateData(term, loc, origin, status, img, character, link) {
+    var findResult = false;
     for(i=0;i<rickData["results"].length; i++){
-        if (rickData["results"][i].name==term) {
+        if (rickData["results"][i].name.toLowerCase()==term.toLowerCase()) {
             loc.text(rickData["results"][i].location.name);
             origin.text(rickData["results"][i].origin.name);
             status.text(rickData["results"][i].status);
             img.attr("src",rickData["results"][i].image)
-            character.text(term);
+            link.attr("href","https://letmegooglethat.com/?q=" + rickData["results"][i].name)
+            character.text(rickData["results"][i].name);
 
-            
-
-
+            findResult = true;
             console.log(rickData["results"][i].image)
         }  
     }
+    if(!findResult) {
+        alert("Character Does Not Exist: " + term)
+    }
 }
 
+function clearContent() {
+    $characterOne.text("Character 1");
+    $locationOne.text("");
+    $originOne.text("");
+    $statusOne.text("");
+    $imageOne.attr("src", "");
 
+    $characterTwo.text("Character 2");
+    $locationTwo.text("");
+    $originTwo.text("");
+    $statusTwo.text("");
+    $imageTwo.attr("src", "");
+
+    $characterThree.text("Character 3");
+    $locationThree.text("");
+    $originThree.text("");
+    $statusThree.text("");
+    $imageThree.attr("src", "");
+
+    termOne=null;
+    termTwo=null;
+    termThree=null;
+}
 
 // executes all inaitail actions when page loads
 init(); 

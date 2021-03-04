@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,16 +39,15 @@
 <main class="main-card">
     
     <div class='title'>
-    <h2> compare Characters</h2>
+    <h2> Compare Characters</h2>
     <form>
     <label>Enter Character :
         <input id = "character-input" type = "text"
         placeholder="eg. Rick Sanchez">
         </label>
         <input type="submit" value="Search" />
-        <div class="button">
-        <button type="button">Reset !</button>
-        </div>
+        <button id="resetButton" type="button">Reset !</button>
+       
         
     </form>
     </div>
@@ -56,11 +57,11 @@
     <article class="outline card">
     <h2 id="characterOne">Character 1</h2>
     <div class="imageOne">
-        <image id="imageOne" src="">
+        <a id="imageOneLink" href="" target="_blank"><image id="imageOne" src=""></a>
     <div class="stats">
-        <p> Location:<span id="locationOne"></span></p>
-        <p> origin:<span id="originOne"></span></p>
-        <p> status:<span id="statusOne"></span></p>
+        <p> Location:  <span id="locationOne"></span></p>
+        <p> origin:  <span id="originOne"></span></p>
+        <p> status:  <span id="statusOne"></span></p>
         
     </div>
     </div>
@@ -70,11 +71,11 @@
     <article class="outline card">
     <h2 id="characterTwo">Character 2</h2>
     <div class="imageTwo">
-        <image id="imageTwo" src="">
+        <a id="imageTwoLink" href="" target="_blank"><image id="imageTwo" src=""></a>
     <div class="stats">
-        <p> Location:<span id="locationTwo"></span></p>
-        <p> origin:<span id="originTwo"></span></p>
-        <p> status:<span id="statusTwo"></span></p>
+        <p> Location:  <span id="locationTwo"></span></p>
+        <p> origin:  <span id="originTwo"></span></p>
+        <p> status:  <span id="statusTwo"></span></p>
     </div>
     </div>
     </article>
@@ -82,11 +83,11 @@
     <article class="outline card">
     <h2 id="characterThree">Character 3</h2>
     <div class="imageThree">
-        <image id="imageThree" src="">
+        <a id="imageThreeLink" href="" target="_blank"><image id="imageThree" src=""></a>
             <div class="stats">
-                <p> Location:<span id="locationThree"></span></p>
-                <p> origin:<span id="originThree"></span></p>
-                <p> status:<span id="statusThree"></span></p>
+                <p> Location:  <span id="locationThree"></span></p>
+                <p> origin:  <span id="originThree"></span></p>
+                <p> status:  <span id="statusThree"></span></p>
             </div>
             </div>
         
