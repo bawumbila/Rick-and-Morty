@@ -5,7 +5,6 @@ TODO:
 3 Clear Button
 4. Realign Text
 
-//IPO Pattern
 
  /*----- constants -----*/
 
@@ -54,6 +53,7 @@ $('form').on('submit', handleSubmit);
 
 
 /*----- functions -----*/
+
 function handleSubmit(evt) {
     evt.preventDefault();
     console.log(termOne)
