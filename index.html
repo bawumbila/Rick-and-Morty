@@ -24,61 +24,76 @@
 <body>
 
     <header  class="head">
-    <h1>Rick and Morty Character Analysis</h1>
+    <h1>Rick and Morty Characters</h1>
     
 </header>
 <main class="main-card">
     
     <div class='title'>
     <h2> compare Characters</h2>
+    <form>
     <label>Enter Character
         <input id = "character-input" type = "text"
         placeholder="eg. Rick Sanchez">
         </label>
         <input type="submit" value="Search" />
+    </form>
     </div>
 
 <section class="section-card">
 
     <article class="outline card">
-    <h2>Character 1</h2>
-    <div class="image-1">
-        <image src=""/>
-    <div class="chsracter-stats-1">
+    <h2 id="characterOne">Character 1</h2>
+    <div class="imageOne">
+        <image id="imageOne" src="">
+    <div class="character-stats-1">
     <image src=""/>
-    <p>Location</p>
-    <p>Episodes</p>
-    <p>Status</p>
+    <div class="box">
+    <div class="stats">
+        <p> Location:<span id="locationOne"></span></p>
+        <p> origin:<span id="originOne"></span></p>
+        <p> status:<span id="statusOne"></span></p>
+        
+    </div>
+    </div>
     </div>
     </div>
     </article>
-
-
-    <article class="outline card">
-    <h2>Character 2</h2>
-    <div class="image-2">
-        <image src=""/>
-    <div class="chsracter-stats-2">
-    <image src=""/>
-    <p>Location</p>
-    <p>Episodes</p>
-    <p>Status</p>
-
-    </div>
-    </div>
-    </article>
-
-    <article class="outline card">
-    <h2>Character 3</h2>
-    <div class="image-3">
-        <image src=""/>
-    <div class="chsracter-stats-3">
-    <p>Location</p>
-    <p>Episodes</p>
-    <p>Status</p>
     
+
+    <article class="outline card">
+    <h2 id="characterTwo">Character 2</h2>
+    <div class="imageTwo">
+        <image id="imageTwo" src="">
+    <div class="character-stats-2">
+    <image src=""/>
+    <div class="box">
+    <div class="stats">
+        <p> Location:<span id="locationTwo"></span></p>
+        <p> origin:<span id="originTwo"></span></p>
+        <p> status:<span id="statusTwo"></span></p>
     </div>
     </div>
+    </div>
+    </div>
+    </article>
+
+    <article class="outline card">
+    <h2 id="characterThree">Character 3</h2>
+    <div class="imageThree">
+        <image id="imageThree" src="">
+    <div class="character-stats-3">
+        <div class="box">
+            <div class="stats">
+                <p> Location:<span id="locationThree"></span></p>
+                <p> origin:<span id="originThree"></span></p>
+                <p> status:<span id="statusThree"></span></p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </article>
+    
     </article>
 
 </section>
