@@ -114,23 +114,3 @@ function getData() {
         });
 
 }
-
-// function render () {
-//     rickData.results.name.map(function(name)
-//     return `${resilts.name}`
-// }
-
-//execute all Initial Actions
-// Infinity() {
-
-    // gather all data
-
-
-// function getData() {
-// $.ajax(BASE_URL)
-// .then(function(data) {
-// console.log(data);
-// }, function(error) {
-//     console.log('error: ', error);
-// });
-// }
