@@ -1,4 +1,9 @@
 
+// TODO
+
+// 1. background Photo
+
+
 
 
  /*----- constants -----*/
@@ -144,3 +149,4 @@ function getData() {
         });
 
 }
+

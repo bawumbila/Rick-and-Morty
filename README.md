@@ -19,7 +19,7 @@ Imput Character Name eg. Beth Smith, Simple character stats are displayed on one
 
 ## 🏎 💨 Getting Started
 
-[click](#) here to get started with app online. 
+[click](https://bawumbila.github.io/Rick-and-Morty/) here to get started with app online. 
 
 
 ## 🛠 Future Enhancements
