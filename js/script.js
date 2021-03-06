@@ -1,11 +1,4 @@
 
-// TODO
-
-// 1. background Photo
-
-
-
-
  /*----- constants -----*/
 
  const $input = $('input[type="text"]');

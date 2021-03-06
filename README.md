@@ -8,7 +8,11 @@
 6. Clicking the image of the character displayed takes you directly to a google search for said character.
 7. Optimized to fit a variety of screen sizes.
 
-## ⚙️ Technologies Used
+##  Getting Started  🏎💨 
+
+[click here](https://bawumbila.github.io/Rick-and-Morty/) to get started. 
+
+##  Technologies Used ⚙️
 - HTML5
 - CSS3
 - JS
@@ -16,9 +20,7 @@
 - [Rick and Morty API](https://rickandmortyapi.com/)
 - Github pages for deployment.
 
-## 📸 Screenshots
-
-
+##  Screenshots 📸
 
 ![Wireframe 1](./imgs/wireframe1.png)
 
@@ -28,12 +30,8 @@
 
 ![Mobile Screenshot](./imgs/AppMobile.png)
 
-## 🏎 💨 Getting Started
 
-[click here](https://bawumbila.github.io/Rick-and-Morty/) to get started with app online. 
-
-
-## 🛠 Future Enhancements
+##  Future Enhancements 🛠
 
 - Further Optimization to run more efficiently.
 - Minor UI tweeks.

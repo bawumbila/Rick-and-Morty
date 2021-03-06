@@ -74,18 +74,12 @@ button {
 
 
 .card {
-    /* display: flex; */
     background-color: rgb(255, 255, 255);
     margin:10px;
     border-radius: 9px;
     box-shadow:  3px 3px 7px 2px #585858;
     padding: 60px;
 }
-
-/* .outline {
-    display: flex;
-    justify-content: center; */
-/* } */
 
 img {
     border-radius: 7px;
@@ -114,13 +108,10 @@ header {
     box-shadow: 3px 3px 7px 3px
 }
 body {
-   
-    /* background-color: rgb(88, 107, 117); */
     background-image: url("https://wallpaperaccess.com/full/401141.jpg");
     padding: 40px 40px 40px 40px;
     font-family: helvetica;
     min-height: 100vh;
-    /* display: flex; */
     flex-direction: column;
 }
 
@@ -133,14 +124,12 @@ body {
         display: block;
         margin-right: 8px;
         width: 100px;
-
     }
 
     .imageTwo img{
         display: block;
         margin-right: 15px;
-        width: 100px;
-        
+        width: 100px;   
     }
 
     .imageThree img{
@@ -148,6 +137,7 @@ body {
         margin-right: 10px;
         width: 100px;
     }
+
     .rickMortyPic img{
         width: 100px;
 
