@@ -138,7 +138,7 @@ body {
 
     .imageTwo img{
         display: block;
-        margin-right: 10px;
+        margin-right: 15px;
         width: 100px;
         
     }
@@ -154,13 +154,3 @@ body {
     }
     }
   
-    /* @media screen and (max-width: 300px) {
-        header {
-            font-size: 4px;
-        } */
-             
-        /* .imageOne img{
-            display: block;
-            margin-right: 10px; */
-        /* }
-        } */
