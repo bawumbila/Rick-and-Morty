@@ -1,4 +1,4 @@
-# Rick and Morty Character Analysis
+# Rick and Morty Character Analysis.
 
 1. A simple web app that dislays Rick and Morty characters and allows you to compare basic stats.
 2. Input Character Name eg. Beth Smith, Simple character stats are displayed on one of 3 cards.
@@ -8,11 +8,11 @@
 6. Clicking the image of the character displayed takes you directly to a google search for said character.
 7. Optimized to fit a variety of screen sizes.
 
-##  Getting Started  🏎💨 
+##  Getting Started. 🏎💨 
 
-[click here](https://bawumbila.github.io/Rick-and-Morty/) to get started. 
+[click here](https://bawumbila.github.io/Rick-and-Morty/) to get startedgit add. 
 
-##  Technologies Used ⚙️
+##  Technologies Used. ⚙️
 - HTML5
 - CSS3
 - JS
@@ -20,7 +20,7 @@
 - [Rick and Morty API](https://rickandmortyapi.com/)
 - Github pages for deployment.
 
-##  Screenshots 📸
+##  Screenshots amd Wireframes. 📸
 
 ![Wireframe 1](./imgs/wireframe1.png)
 
@@ -31,7 +31,7 @@
 ![Mobile Screenshot](./imgs/AppMobile.png)
 
 
-##  Future Enhancements 🛠
+##  Future Enhancements. 🛠
 
 - Further Optimization to run more efficiently.
 - Minor UI tweeks.
