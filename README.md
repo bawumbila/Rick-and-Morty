@@ -10,7 +10,7 @@
 
 ##  Getting Started. 🏎💨 
 
-[click here](https://bawumbila.github.io/Rick-and-Morty/) to get startedgit add. 
+[click here](https://bawumbila.github.io/Rick-and-Morty/) to get started. 
 
 ##  Technologies Used. ⚙️
 - HTML5
